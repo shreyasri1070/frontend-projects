@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="css1.css">
+
+</head>
+<body>
+    <div id="cont">
+        <div class="to-do-cont">
+        <h1 class="h" id="head">TO-DO LIST<img src="images\icon.png" alt="" class="himg" id="im"></h1>
+        <div class="input">
+            <input type="text" id="input_cont" placeholder="Enter the text here">
+            <button  onclick="ADD_TASK()"  >ADD</button>
+        </div>
+        <ul class="task" id="li_cont">
+            <!-- <li class="checked">Task1</li>
+            <li class="checked">Task2</li>
+            <li class="checked">Task3</li>
+            <li class="checked">Task3</li> -->
+        </ul>
+<div id="removeall">
+     <button onclick="removeAll()">  <img src="images/delete icon.png" title="Remove all"></button>
+
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
